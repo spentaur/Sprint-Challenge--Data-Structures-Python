@@ -43,6 +43,9 @@ class LinkedList:
         return False
 
     def reverse_list(self, node, prev):
+        # not too big a fan of this solution, not sure if it's the best way to
+        # do it, i could probably do recursion, but it works, and passes the
+        # tests.
         if node is None:
             return
 
